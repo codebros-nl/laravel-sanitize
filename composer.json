@@ -14,5 +14,8 @@
     },
     "require-dev": {
         "laravel/framework": "^7.0"
+    },
+    "require": {
+        "daylerees/sanitizer": "^1.0"
     }
 }
