@@ -1,0 +1,18 @@
+{
+    "name": "codebros/laravel-sanitize",
+    "description": "Easy to use package for sanitizing request data in Laravel",
+    "authors": [
+        {
+            "name": "Norman Reinhard",
+            "email": "info@codebros.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodeBros\\": "src/"
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "^7.0"
+    }
+}
