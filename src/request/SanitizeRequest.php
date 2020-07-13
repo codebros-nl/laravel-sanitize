@@ -11,10 +11,7 @@ use Illuminate\Foundation\Http\FormRequest;
  */
 class SanitizeRequest extends FormRequest
 {
-    protected function prepareForValidation()
-    {
-
-    }
+    use SanitizeInputTrait;
 
     /**
      * Determine if the user is authorized to make this request.

@@ -2,6 +2,8 @@
 
 namespace CodeBros\Request;
 
+use Rees\Sanitizer\Sanitizer;
+
 /**
  * Trait SanitizeInputTrait
  *
